@@ -7,22 +7,50 @@
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
     h1, h2 { color: #111; }
+    h2 { margin-top: 28px; }
+    .en { color: #444; border-left: 3px solid #ccc; padding-left: 12px; }
   </style>
 </head>
 <body>
   <h1>islam_ai Gizlilik Politikası / Privacy Policy</h1>
-  <p><strong>Son Güncelleme / Last Updated:</strong> 17 Kasım 2026</p>
+  <p><strong>Son Güncelleme / Last Updated:</strong> 26 Kasım 2026 / 26 November 2026</p>
   <p><strong>Geliştirici / Developer:</strong> Kadir Bayhan</p>
+  <p><strong>İletişim / Contact:</strong> <a href="mailto:yenimetotelifba@gmail.com">yenimetotelifba@gmail.com</a></p>
 
-  <h2>1. Toplanan Veriler ve İzinler (Data & Permissions)</h2>
-  <p><strong>islam_ai</strong> uygulaması kullanıcı hesap kaydı gerektirmez ve kişisel kimlik bilgilerinizi harici sunucularda toplamaz. Uygulama yalnızca namaz vakitlerini ve kıble yönünü doğru hesaplayabilmek için cihazınızın konum bilgisini (GPS ve ağ tabanlı) anlık olarak cihaz üzerinde işler. Konum verileri kaydedilmez ve üçüncü taraflarla paylaşılmaz.</p>
-  <p><em>English:</em> <strong>islam_ai</strong> does not require user registration and does not collect or store personal data on external servers. Location permissions (precise and approximate) are used solely on the device to calculate Qibla direction and local prayer times, and are never stored or shared with third parties.</p>
+  <h2>1. Genel bilgi (General)</h2>
+  <p>islam_ai kullanıcı hesabı gerektirmez. Geliştiricinin kendi sunucusu yoktur; uygulama kişisel verilerinizi geliştiriciye göndermez, reklam veya izleme amacıyla kullanmaz. Uygulamada reklam ve analitik kütüphanesi bulunmaz.</p>
+  <p class="en"><em>English:</em> islam_ai does not require an account. The developer runs no server; personal data is not sent to the developer and is not used for advertising or tracking. The app contains no ad or analytics SDK.</p>
 
-  <h2>2. Üçüncü Taraf Hizmetler (Third-Party Services)</h2>
-  <p>Uygulama içerisindeki eğitim paketleri ve medya dosyaları yalnızca uygulamanın eğitim işlevselliğini sağlamak amacıyla indirilir; reklam veya kullanıcı takibi amacıyla veri paylaşımı yapılmaz.</p>
+  <h2>2. Konum (Location)</h2>
+  <p>Kesin ve yaklaşık konum izni yalnızca uygulama açıkken kullanılır; arka planda konum izni istenmez. Konumunuz şu amaçlarla kullanılır: kıble yönü ve namaz vakti; konumunuza göre il/ilçe seçimi; yakındaki camiler; ana ekran hava durumu. Konum geliştiriciye gönderilmez ve geliştirici tarafından saklanmaz.</p>
+  <p class="en"><em>English:</em> Precise and approximate location permissions are used only while the app is open; background location is not requested. Location is used for the Qibla direction, prayer times, choosing your province/district, nearby mosques, and the home-screen weather. It is not sent to the developer and is not stored by the developer.</p>
 
-  <h2>3. İletişim (Contact)</h2>
-  <p>Gizlilik politikası ile ilgili sorularınız için geliştirici ile uygulama mağazası sayfasındaki iletişim kanalları üzerinden iletişime geçebilirsiniz.</p>
-  <p><strong>Destek ve İletişim / Support &amp; Contact:</strong> <a href="mailto:yenimetotelifba@gmail.com">yenimetotelifba@gmail.com</a></p>
+  <h2>3. Üçüncü taraf hizmetler (Third-party services)</h2>
+  <p>Bazı özellikler için veriler aşağıdaki hizmetlere gönderilir. Her biri yalnızca ilgili özelliğin çalışması için gereken bilgiyi alır.</p>
+  <ul>
+    <li><strong>Hava durumu — MET Norway (api.met.no):</strong> Hava durumu için konum enlem ve boylamı yaklaşık 0,1 dereceye (yaklaşık 10 km) yuvarlanarak gönderilir. Ad, e-posta, cihaz veya reklam kimliği gönderilmez. İstekler en sık yaklaşık 45 dakikada bir yapılır. Hava durumu verileri MET Norway tarafından CC BY 4.0 lisansıyla sağlanır. Ayarlar → Konum ve namaz → Ana ekranda hava durumu anahtarıyla veya ana ekrandaki hava durumu düğmesiyle kapatabilirsiniz; kapalıyken MET Norway'e istek gönderilmez.</li>
+    <li><strong>Yakındaki camiler — OpenStreetMap / Overpass (overpass.private.coffee, maps.mail.ru; yedek olarak api.openstreetmap.org):</strong> Camiler sekmesi açılmadan da, konum izni verildiğinde ve konum açıkken uygulama açıldığında ya da öne geldiğinde yakın camiler aranır. Arama konumunuzun koordinatlarını ve arama yarıçapını içerir. Aynı yerde 6 saat içinde yeniden arama yapılmaz. Sonuçlar yalnızca cihazınızda saklanır. Konum iznini kapatarak aramayı durdurabilirsiniz.</li>
+    <li><strong>İl/ilçe adı — işletim sisteminin konum adı hizmeti:</strong> Otomatik konumla namaz vakti seçerken koordinatlar telefonunuzun konum adı hizmetine gider (Android'de Google, iOS'ta Apple). Namaz vakitleri Diyanet İşleri Başkanlığı'ndan (namazvakitleri.diyanet.gov.tr) yalnızca il/ilçe kimliğiyle alınır; koordinat gönderilmez.</li>
+    <li><strong>Haritalar:</strong> "Haritada aç" veya "Yol tarifi" düğmesine dokunduğunuzda seçtiğiniz konum Google Haritalar veya Apple Haritalar'a açılır. Bu, sizin başlattığınız bir işlemdir.</li>
+    <li><strong>YouTube:</strong> Videolu dersler YouTube oynatıcısıyla gösterilir; YouTube'un gizlilik politikası geçerlidir. Abonelik özelliğini kullanmak isterseniz isteğe bağlı olarak Google hesabınızla giriş yapabilirsiniz; bu bilgi uygulamada saklanmaz ve geliştiriciye gönderilmez.</li>
+    <li><strong>İçerik indirme:</strong> Eğitim paketleri, ses ve medya dosyaları archive.org, GitHub ve benzeri açık kaynaklardan indirilir. Bu sırada IP adresi gibi standart bağlantı bilgileri ilgili sunuculara ulaşır. Dosyalar yalnızca eğitim işlevi için kullanılır.</li>
+  </ul>
+  <p class="en"><em>English:</em> Some features send data to the services listed above: MET Norway (rounded coordinates, about 10 km, for the home-screen weather; can be turned off); OpenStreetMap/Overpass (your coordinates and search radius, for nearby mosques; results are stored only on your device); your phone's operating-system location name service (Google on Android, Apple on iOS), used only to show your district when you choose automatic location; Diyanet (province/district ID only, no coordinates); Google or Apple Maps only when you tap a map or directions button; YouTube, governed by YouTube's own policy; and open-source hosts for downloading learning content.</p>
+
+  <h2>4. Saklanan veriler (Stored on your device)</h2>
+  <p>Seçimleriniz, favorileriniz, ilerlemeniz, son alınan konum, hava durumu ve cami listesi yalnızca cihazınızda saklanır. Bu verileri uygulama verilerini silerek veya uygulamayı kaldırarak silebilirsiniz.</p>
+  <p class="en"><em>English:</em> Your choices, favourites, progress, last location, weather and mosque list are stored only on your device. Clear the app data or uninstall the app to delete them.</p>
+
+  <h2>5. Çocuklar (Children)</h2>
+  <p>Uygulama eğitim amaçlıdır; bilerek 13 yaş altındaki çocuklardan kişisel veri toplamaz.</p>
+  <p class="en"><em>English:</em> The app is educational and does not knowingly collect personal data from children under 13.</p>
+
+  <h2>6. Değişiklikler (Changes)</h2>
+  <p>Bu politika değiştiğinde bu sayfada ve "Son Güncelleme" tarihinde belirtilir.</p>
+  <p class="en"><em>English:</em> Changes to this policy are posted on this page with an updated date.</p>
+
+  <h2>7. İletişim (Contact)</h2>
+  <p>Gizlilik politikası ile ilgili sorularınız için: <a href="mailto:yenimetotelifba@gmail.com">yenimetotelifba@gmail.com</a></p>
+  <p class="en"><em>English:</em> For privacy questions, contact <a href="mailto:yenimetotelifba@gmail.com">yenimetotelifba@gmail.com</a>.</p>
 </body>
 </html>
